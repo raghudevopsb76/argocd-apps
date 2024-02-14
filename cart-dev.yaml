@@ -11,6 +11,9 @@ spec:
     path: helm
     repoURL: 'https://github.com/raghudevopsb76/cart'
     targetRevision: HEAD
+    helm:
+      valueFiles:
+          - dev.yaml
     parameters:
       - name: autoscaling.minReplicas
         value: '2'
