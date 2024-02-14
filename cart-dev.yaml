@@ -11,6 +11,11 @@ spec:
     path: helm
     repoURL: 'https://github.com/raghudevopsb76/cart'
     targetRevision: HEAD
+    parameters:
+      - name: autoscaling.minReplicas
+        value: '2'
+      - name: replicaCount
+        value: '2'
   sources: []
   project: default
   syncPolicy:
