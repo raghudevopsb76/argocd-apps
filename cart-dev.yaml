@@ -15,7 +15,7 @@ spec:
       - name: autoscaling.minReplicas
         value: '2'
       - name: replicaCount
-        value: '2'
+        value: '4'
   sources: []
   project: default
   syncPolicy:
