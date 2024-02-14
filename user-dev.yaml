@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: catalogue-dev
+  name: user-dev
 spec:
   destination:
     name: ''
@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: helm
-    repoURL: 'https://github.com/raghudevopsb76/catalogue'
+    repoURL: 'https://github.com/raghudevopsb76/user'
     targetRevision: HEAD
     helm:
       valueFiles:
