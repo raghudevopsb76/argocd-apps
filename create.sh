@@ -1,4 +1,4 @@
 for i in *.yaml ;do
-  echo $i
+  argocd app create $(echo $i | sed -e 's/.yaml//') --file=$i
 done
 
