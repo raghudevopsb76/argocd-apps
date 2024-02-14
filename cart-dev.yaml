@@ -14,11 +14,6 @@ spec:
     helm:
       valueFiles:
           - dev.yaml
-    parameters:
-      - name: autoscaling.minReplicas
-        value: '2'
-      - name: replicaCount
-        value: '4'
   sources: []
   project: default
   syncPolicy:
