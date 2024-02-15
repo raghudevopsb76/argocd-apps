@@ -10,7 +10,7 @@ spec:
   source:
     path: helm
     repoURL: 'https://github.com/raghudevopsb76/cart'
-    targetRevision: HEAD
+    targetRevision: deploy
     helm:
       valueFiles:
           - dev.yaml
