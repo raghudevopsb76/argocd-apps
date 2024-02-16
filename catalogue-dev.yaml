@@ -10,7 +10,7 @@ spec:
   source:
     path: helm
     repoURL: 'https://github.com/raghudevopsb76/catalogue'
-    targetRevision: HEAD
+    targetRevision: deploy
     helm:
       valueFiles:
         - dev.yaml
